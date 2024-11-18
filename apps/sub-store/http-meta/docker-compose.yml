@@ -1,0 +1,18 @@
+services:
+  mihomo:
+    container_name: ${CONTAINER_NAME}
+    restart: always
+    networks:
+      - 1panel-network
+    ports:
+      - "${PANEL_APP_PORT_HTTP}:3000"
+    volumes:
+      - ${CONFIG_DIR}:/root/sub-store-data
+    environment:
+      - SUB_STORE_FRONTEND_BACKEND_PATH=/${ENCRYPTION_KEY}
+    image: xream/sub-store:http-meta
+    labels:
+      createdBy: "Apps"
+networks:
+  1panel-network:
+    external: true

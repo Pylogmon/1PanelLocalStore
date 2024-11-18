@@ -1,0 +1,16 @@
+additionalProperties:
+  formFields:
+    - default: 4000
+      edit: true
+      envKey: PANEL_APP_PORT_HTTP
+      labelEn: Port
+      labelZh: 端口
+      required: true
+      rule: paramPort
+      type: number
+    - edit: true
+      envKey: SITE_DOMAIN
+      labelEn: Site Domain
+      labelZh: 站点域名
+      required: true
+      type: text

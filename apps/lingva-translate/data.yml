@@ -1,0 +1,19 @@
+name: Lingva Translate
+tags:
+  - 实用工具
+title: Lingva Translate
+description: Lingva Translate
+additionalProperties:
+  key: lingva-translate
+  name: Lingva Translate
+  tags:
+    - Translate
+  shortDescZh: Lingva Translate
+  shortDescEn: Lingva Translate
+  type: tool
+  crossVersionUpdate: true
+  limit: 0
+  recommend: 0
+  website: https://github.com/thedaviddelta/lingva-translate
+  github: https://github.com/thedaviddelta/lingva-translate
+  document: https://github.com/thedaviddelta/lingva-translate
