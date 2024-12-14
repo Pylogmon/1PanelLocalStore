@@ -1,0 +1,19 @@
+name: vCards
+tags:
+  - 工具
+title: 导入常用联系人头像，优化 iOS 来电、信息界面体验。
+description: 导入常用联系人头像，优化 iOS 来电、信息界面体验。
+additionalProperties:
+  key: vcards
+  name: vCards
+  tags:
+    - 工具
+  shortDescZh: 导入常用联系人头像，优化 iOS 来电、信息界面体验。
+  shortDescEn: Import frequently used contact avatars to enhance the experience of incoming calls and messages on iOS.
+  type: tool
+  crossVersionUpdate: true
+  limit: 0
+  recommend: 0
+  website: https://github.com/metowolf/vCards
+  github: https://github.com/metowolf/vCards
+  document: https://github.com/metowolf/vCards

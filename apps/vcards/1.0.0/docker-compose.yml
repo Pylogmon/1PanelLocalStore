@@ -1,0 +1,16 @@
+services:
+  lobe-chat:
+    image: metowolf/vcards:1.0.0
+    container_name: ${CONTAINER_NAME}
+    restart: always
+    networks:
+      - 1panel-network
+    volumes:
+      - ./data:/root/.config/radicale
+    ports:
+      - "${PANEL_APP_PORT_HTTP}:5232"
+    labels:
+      createdBy: "Apps"
+networks:
+  1panel-network:
+    external: true
