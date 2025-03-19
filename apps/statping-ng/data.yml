@@ -4,7 +4,7 @@ tags:
 title: Statping-NG
 description: Statping-NG
 additionalProperties:
-  key: statping
+  key: statping-ng
   name: Statping-NG
   tags:
     - 实用工具
