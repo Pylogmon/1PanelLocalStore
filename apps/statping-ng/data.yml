@@ -1,0 +1,19 @@
+name: Statping-NG
+tags:
+  - 实用工具
+title: Statping-NG
+description: Statping-NG
+additionalProperties:
+  key: statping
+  name: Statping-NG
+  tags:
+    - 实用工具
+  shortDescZh: Statping-NG
+  shortDescEn: Statping-NG
+  type: tool
+  crossVersionUpdate: true
+  limit: 0
+  recommend: 0
+  website: https://github.com/statping-ng/statping-ng
+  github: https://github.com/statping-ng/statping-ng
+  document: https://github.com/statping-ng/statping-ng
