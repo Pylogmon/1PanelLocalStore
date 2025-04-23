@@ -1,0 +1,20 @@
+name: Kener
+tags:
+  - 工具
+title: Kener
+type: 工具
+description: Kener
+additionalProperties:
+  key: kener
+  name: kener
+  tags:
+    - Tool
+  shortDescZh: 令人惊叹的状态页面
+  shortDescEn: Stunning Status Pages
+  type: tool
+  crossVersionUpdate: true
+  limit: 0
+  recommend: 0
+  website: https://kener.ing/
+  github: https://github.com/rajnandan1/kener
+  document: https://kener.ing/docs/home
