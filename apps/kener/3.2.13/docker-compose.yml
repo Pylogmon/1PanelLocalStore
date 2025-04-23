@@ -12,7 +12,7 @@ services:
     environment:
       - KENER_SECRET_KEY=${KENER_SECRET_KEY}
       - ORIGIN=http://localhost:3000
-    image: xream/sub-store:http-meta
+    image: rajnandan1/kener:3.2.13
     labels:
       createdBy: "Apps"
 networks:
