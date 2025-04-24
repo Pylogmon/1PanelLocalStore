@@ -1,6 +1,6 @@
 additionalProperties:
   formFields:
-    - default: 9090
+    - default: 3000
       edit: true
       envKey: PANEL_APP_PORT_HTTP
       labelEn: Port
@@ -13,5 +13,12 @@ additionalProperties:
       envKey: KENER_SECRET_KEY
       labelEn: Kener Secret Key
       labelZh: Kener 密钥
+      required: true
+      type: text
+    - default: http://localhost:3000
+      edit: true
+      envKey: ORIGIN
+      labelEn: Origin
+      labelZh: 访问地址
       required: true
       type: text
