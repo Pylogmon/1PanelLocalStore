@@ -1,0 +1,19 @@
+name: AssppWeb
+tags:
+  - 工具
+title: 一个基于Web的工具，用于在App Store之外获取和安装iOS应用程序。使用您的Apple ID进行身份验证、搜索应用程序、获取许可证并将IPA直接安装到您的设备上。
+description: 一个基于Web的工具，用于在App Store之外获取和安装iOS应用程序。使用您的Apple ID进行身份验证、搜索应用程序、获取许可证并将IPA直接安装到您的设备上。
+additionalProperties:
+  key: AssppWeb
+  name: AssppWeb
+  tags:
+    - 工具
+  shortDescZh: 一个基于Web的工具，用于在App Store之外获取和安装iOS应用程序。使用您的Apple ID进行身份验证、搜索应用程序、获取许可证并将IPA直接安装到您的设备上。
+  shortDescEn: A web-based tool for acquiring and installing iOS apps outside the App Store. Authenticate with your Apple ID, search for apps, acquire licenses, and install IPAs directly to your device.
+  type: tool
+  crossVersionUpdate: true
+  limit: 0
+  recommend: 0
+  website: https://github.com/Lakr233/AssppWeb
+  github: https://github.com/Lakr233/AssppWeb
+  document: https://github.com/Lakr233/AssppWeb
