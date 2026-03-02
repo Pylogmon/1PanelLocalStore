@@ -1,6 +1,6 @@
 services:
   lobe-chat:
-    image: ghcr.io/lakr233/assppweb:c57f3e9
+    image: ghcr.io/lakr233/assppweb:latest
     container_name: ${CONTAINER_NAME}
     restart: unless-stopped
     networks:
